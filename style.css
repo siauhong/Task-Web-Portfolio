@@ -1,0 +1,507 @@
+/* Style Semua Devices */
+  /* Font Figtree - Google Fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  /* Font Figtree - Google Fonts */
+
+  /* Font untuk seluruh website */
+    * {
+      font-family: 'Figtree', sans-serif;
+      font-weight: normal;
+    }
+  /* Font untuk seluruh website */
+
+  /* Setting Warna Background Website */
+    body {
+      background-color: #FCF9F2;
+    }
+  /* Setting Warna Background Website */
+
+  /* Warna Scroll Bar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background-color: #282012;
+      border-radius: 100px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background-color: transparent;
+    }
+
+    * {
+      scrollbar-color: #282012 transparent; 
+      scrollbar-width: thin; 
+    }
+
+    * {
+      border-radius: 100px;
+    }
+
+    *::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    *::-webkit-scrollbar-thumb {
+      background-color: #282012;
+      border-radius: 100px;
+    }
+
+    *::-webkit-scrollbar-track {
+      background-color: transparent;
+    }
+  /* Warna Scroll Bar */
+
+  /* Class Padding 20Px Kiri Kanan */
+    .pd-20{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  /* Class Padding 20 Px Kiri Kanan */
+
+  /* Animasi Fade in Down */
+    .fade-in-down {
+      opacity: 0;
+      transform: translateY(-20px);
+      transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    }
+
+    .fade-in-down.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  /* Animasi Fade in Down */
+
+  /* Animasi Fade Up */
+    .fade-up {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    }
+
+    .fade-up.showUp {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  /* Animasi Fade Up */
+
+  /* Custom Navigasi */
+    .customNav{
+      padding: 0px;
+    }
+  /* Custom Navigasi */
+
+  /* Wrapper Navigasi */
+    .wrapperNavigasi{
+      display: flex;
+      align-items: bottom;
+    }
+  /* Wrapper Navigasi */
+
+  /* Style Section 1 */
+    #section1{
+      row-gap: 45px!important;
+      display: flex;
+      flex-direction: column;
+      margin-top: 100px;
+    }
+  /* Style Section 1 */
+  
+  /* Style Pesan Profile */
+    .pesanProfile{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      column-gap: 20px;
+    }
+  /* Style Pesan Profile */
+
+  /* Style Gambar Profile */
+    .gambarProfileIMG{
+      height: 58px;
+      width: 58px;
+      border-radius: 100px;
+      border: 2px solid #FBE4AF;
+    }
+  /* Style Gambar Profile */
+
+  /* Style Pesan Profile */
+    .pesanProfileMSG{
+      display: flex;
+      align-items: center;
+      font-size: 24px;
+      height: 60px;
+      line-height: 30px;
+      background-color: white;
+      padding: 20px 15px;
+      column-gap: 10px;
+      flex-direction: row;
+      border-radius: 100px;
+      color: #A89B79;
+      font-weight: 500;
+    }
+  /* Style Pesan Profile */
+
+  /* Style Konten 1 */
+
+    .konten1{
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+    }
+
+  /* Style Konten 1 */
+
+  /* Style Judul Besar */
+    span.judulBesar{
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 56px;
+      color: #282012;
+    }
+  /* Style Judul Besar */
+
+  /* Style Deskripsi Umum */
+    span.deksripsiUmum{
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 35px;
+      color: #A89B79;
+    }
+  /* Style Deskripsi Umum */
+
+  /* Style Button Group */
+    .buttonGroup{
+      display: flex;
+      flex-direction: row;
+      column-gap: 20px;
+    }
+  /* Style Button Group */
+
+  /* Style Tombol Utama dan Kedua */
+    .tombolUtama{
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 20px;
+      background-color: #FBE4B0;
+      color: #282012;
+      height: 60px;
+      padding: 15px 25px;
+      border-radius: 50px;
+      transition: all 0.5s ease;
+      display: flex;
+      align-items: center;
+    }
+
+    .tombolUtama:hover,
+    .tombolUtama:focus,
+    .tombolUtama:active{
+      background-color: #ebd4a0;
+    }
+
+    .tombolKedua{
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 20px;
+      color: #282012;
+      padding: 15px 25px;
+      border-radius: 50px;
+      border: 1px solid #282012;
+      transition: all 0.5s ease;
+      display: flex;
+      align-items: center;
+    }
+
+    .tombolKedua:hover,
+    .tombolKedua:focus,
+    .tombolKedua:active{
+      background-color: #ebd4a0;
+      border: 1px solid transparent;
+    }
+  /* Style Tombol Utama dan Kedua */
+
+  /* Style Section Ke 2 */
+    #section2{
+      display: flex;
+      flex-direction: column;
+      row-gap: 45px!important;
+      margin-top: 100px;
+    }
+  /* Style Section Ke 2 */
+
+  /* Style Judul Utama */
+    .judulUtama{
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 30px;
+    }
+  /* Style Judul Utama */
+
+  /* Style Konten 3 */
+  .konten3 {
+    display: flex;
+    column-gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: space-between;
+  }
+  /* Style Konten 3 */
+
+  /* Style Card Mini */
+  .wrapperCardMini {
+    background-color: #F4F0E5;
+    padding: 20px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    width: calc(33.33% - 20px); /* Menggunakan 33.33% agar dibagi menjadi tiga baris */
+    max-width: 100%;
+    box-sizing: border-box; /* Menghindari overflow horizontal */
+  }
+
+  .iconCardMini {
+    background-color: white;
+    padding: 15px;
+    margin: 0px;
+    border-radius: 16px;
+  }
+
+  .imgCard {
+    display: flex;
+    align-items: center;
+  }
+
+  .infoCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .cardGroupInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  /* Style Card Mini */
+
+  /* Style Small Title and Description */
+  .judulSmall {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    flex-wrap: wrap;
+  }
+
+  .deskripsiSmall {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #A89B79;
+    flex-wrap: wrap;
+  }
+  /* Style Small Title and Description */
+
+  /* Style Konten 4 */
+    .konten4{
+      display: flex;
+      flex-direction: row;
+      column-gap: 20px;
+      row-gap: 20px;
+      flex: 1;
+      flex-basis: 50%;
+    }
+  /* Style Konten 4 */
+
+  /* Judul App */
+    .judulApp {
+      align-items: center;
+      display: flex;
+      font-size: 20px;
+    }
+
+  /* Judul App */
+
+  /* Wrapper App Name */
+    .namaApp{
+      column-gap: 20px;
+      row-gap: 20px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  /* Wrapper App Name */
+
+  /* Style App Name */
+    .appName{
+      background-color: white;
+      padding: 15px 25px;
+      border-radius: 50px;
+      row-gap: 20px;
+      flex: 1;
+      flex-basis: auto;
+      display: flex;
+      font-size: 20px;
+    }
+  /* Style App Name */
+
+  /* Font Style App Name */
+    .deskripsiSmall.appName{
+      font-weight: 500;
+    }
+  /* Font Style App Name */
+
+  /* Section 3 */
+    #section3{
+      display: flex;
+      flex-direction: column;
+      row-gap: 45px!important;
+      margin-top: 100px;
+    }
+  /* Section 3 */
+
+  /* Portofolio */
+    .portofolio{
+      row-gap: 20px;
+      column-gap: 20px;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 45px;
+    }
+  /* Portofolio */
+
+  /* Container Foto */
+    .containerFoto {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px; /* Sesuaikan jarak antar gambar jika diperlukan */
+    }
+  /* Container Foto */
+
+  /* Pitcure Portofolio */
+    .pitcurePortofolio {
+      width: 100%;
+      height: auto;
+      border-radius: 16px;
+    }
+  /* Pitcure Portofolio */
+
+  /* Style App Name */
+    .portofolioJudul{
+      background-color: #F4F0E5;
+      padding: 15px 25px;
+      border-radius: 50px;
+      color: #A89B79;
+      font-size: 20px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+    }
+  /* Style App Name */
+
+  /* Card Footer */
+    .cardFooter{
+      background-color: #282012;
+      padding: 50px;
+      border-radius: 16px;
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+  /* Card Footer */
+
+/* Style Semua Devices */
+
+
+/* Media query untuk tablet (lebar layar antara 600px dan 1024px) */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+
+
+  .wrapperCardMini{
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+
+  .appName {
+    flex: 1;
+    flex-basis: auto;
+  }
+}
+
+/* Media query untuk mobile (lebar layar kurang dari 600px) */
+@media only screen and (max-width: 600px) {
+  .pesanProfileMSG{
+    font-size: 15px;
+  }
+
+  .tombolUtama,
+  .tombolKedua{
+    font-size: 15px;
+  }
+
+  span.judulBesar {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 45px;
+    color: #282012;
+  }
+
+  span.deksripsiUmum {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #A89B79;
+  }
+
+  .deskripsiSmall {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #A89B79;
+    flex-wrap: wrap;
+  }
+
+  .konten3{
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .konten4{
+    flex-direction: column;
+  }
+
+  .judulApp{
+    width: 100%!important;
+  }
+
+  .appName{
+    flex: 1;
+    flex-basis: 50%;
+    flex-direction: row;
+  }
+
+  .wrapperCardMini{
+    width: 100%;
+  }
+
+  .containerFoto {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .buttonandSocial{
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+
+  .iconSocial.tombolUtama{
+    padding: 20px 20px;
+  }
+
+  .portofolioJudul{
+    font-size: 15px;
+
+  }
+
+}
